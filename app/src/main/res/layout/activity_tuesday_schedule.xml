@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/verticalLayoutsThirdScreen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#bc86d9"
+    tools:context=".tuesday_Schedule">
+
+    <ImageView
+        android:id="@+id/dayImage"
+        style="@style/imageViewsStyleThirdScreen" />
+
+    <TextView
+        style="@style/largeTextViewStyle"
+        android:text="@string/tuesday_schedule" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:choiceMode="multipleChoice"
+        android:outlineSpotShadowColor="@color/black" />
+
+    <LinearLayout style="@style/horizontalLayouts">
+
+        <Button
+            style="@style/buttonsStyle"
+            android:onClick="btnFinishedOnClickDay"
+            android:text="@string/finish_day"
+            android:backgroundTint="#9b09e8"
+            />
+
+        <Button
+            style="@style/buttonsStyle"
+            android:onClick="btnLoadOnClickDay"
+            android:text="@string/load_day"
+            android:backgroundTint="#9b09e8"
+            />
+
+        <Button
+            style="@style/buttonsStyle"
+            android:onClick="btnInsertOnClickDay"
+            android:text="@string/add_day"
+            android:backgroundTint="#9b09e8"
+            />
+
+        <Button
+            style="@style/buttonsStyle"
+            android:onClick="btnDeleteOnClickDay"
+            android:text="@string/delete_day"
+            android:backgroundTint="#9b09e8"
+            />
+    </LinearLayout>
+
+    <LinearLayout style="@style/horizontalLayouts">
+
+        <TextView
+            style="@style/smallTextViewStyle"
+            android:text="@string/enter_day" />
+
+        <EditText
+            android:id="@+id/txtLecture"
+            style="@style/editTextStyle"
+            android:hint="@string/hint_day" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/horizontalLayouts">
+
+        <TextView
+            style="@style/smallTextViewStyle"
+            android:text="@string/time_start_day" />
+
+        <EditText
+            android:id="@+id/txtStartTime"
+            style="@style/editTextStyle"
+            android:hint="@string/hint_starting_time" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/horizontalLayouts">
+
+        <TextView
+            style="@style/smallTextViewStyle"
+            android:text="@string/time_finish_day" />
+
+        <EditText
+            android:id="@+id/txtFinishTime"
+            style="@style/editTextStyle"
+            android:hint="@string/hint_finishing_time" />
+    </LinearLayout>
+
+</LinearLayout>

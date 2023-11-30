@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/verticalLayoutsThirdScreen"
+    android:background="#f0625b"
+    tools:context=".Assignments"
+    >
+
+    <ImageView
+        style="@style/imageViewsStyleThirdScreen"
+        android:id="@+id/assignments_image"
+        />
+
+    <TextView
+        style="@style/largeTextViewStyle"
+        android:text="@string/please_select_the_performed_assignments"
+        />
+
+    <ListView
+        style="@style/listViewStyleThirdScreen"
+        android:id="@+id/assignments_list_view"
+        />
+
+    <LinearLayout
+        style="@style/horizontalLayouts"
+        >
+
+        <Button
+            style="@style/buttonsStyle"
+            android:onClick="btnSavedOnClickAssignments"
+            android:text="@string/save_assignments"
+            android:backgroundTint="#c71224"
+            />
+
+        <Button
+            style="@style/buttonsStyle"
+            android:onClick="btnLoadOnClickAssignments"
+            android:text="@string/load_assignments"
+            android:backgroundTint="#c71224"
+            />
+
+        <Button
+            style="@style/buttonsStyle"
+            android:onClick="btnInsertOnClickAssignments"
+            android:text="@string/add_assignments"
+            android:backgroundTint="#c71224"
+            />
+
+        <Button
+            style="@style/buttonsStyle"
+            android:onClick="btnDeleteOnClickAssignments"
+            android:text="@string/delete_assignments"
+            android:backgroundTint="#c71224"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/horizontalLayouts"
+        >
+
+        <TextView
+            style="@style/smallTextViewStyle"
+            android:text="@string/enter_assignment_name"
+            />
+
+        <EditText
+            style="@style/editTextStyle"
+            android:hint="@string/hint_assignment"
+            android:id="@+id/txtAssignments"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

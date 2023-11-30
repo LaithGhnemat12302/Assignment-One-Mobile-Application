@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="0.5dp"
+    android:orientation="vertical"
+    android:background="#a0f241"
+    tools:context=".MainActivity"
+    >
+
+    <TextView
+        style="@style/largeTextViewStyle"
+        android:text="@string/please_select_one_of_this_list"
+        />
+
+    <ListView
+        style="@style/listViewStyle"
+        android:id="@+id/main_list"
+        />
+
+    <ImageView
+        style="@style/imageViewsStyle"
+        android:src="@drawable/android"
+        android:background="@color/black"
+        />
+
+</LinearLayout>

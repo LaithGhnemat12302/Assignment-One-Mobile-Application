@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/verticalLayoutsThirdScreen"
+    android:background="#7b95e0"
+    tools:context=".Projects"
+    >
+
+    <ImageView
+        style="@style/imageViewsStyleThirdScreen"
+        android:id="@+id/projects_image"
+        />
+    
+    <TextView
+        style="@style/largeTextViewStyle"
+        android:text="@string/please_select_the_performed_projects"
+        />
+
+    <ListView
+        style="@style/listViewStyleThirdScreen"
+        android:id="@+id/projects_list_view"
+        />
+
+    <LinearLayout
+        style="@style/horizontalLayouts"
+        >
+
+        <Button
+            style="@style/buttonsStyle"
+            android:onClick="btnSavedOnClickProjects"
+            android:text="@string/save_projects"
+            android:backgroundTint="#3140e8"
+            />
+
+        <Button
+            style="@style/buttonsStyle"
+            android:onClick="btnLoadOnClickProjects"
+            android:text="@string/load_projects"
+            android:backgroundTint="#3140e8"
+            />
+
+        <Button
+            style="@style/buttonsStyle"
+            android:onClick="btnInsertOnClickProjects"
+            android:text="@string/add_projects"
+            android:backgroundTint="#3140e8"
+            />
+
+        <Button
+            style="@style/buttonsStyle"
+            android:onClick="btnDeleteOnClickProjects"
+            android:text="@string/delete_projects"
+            android:backgroundTint="#3140e8"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/horizontalLayouts"
+        >
+
+        <TextView
+            style="@style/smallTextViewStyle"
+            android:text="@string/enter_project_name"
+            />
+
+        <EditText
+            style="@style/editTextStyle"
+            android:hint="@string/hint_project"
+            android:id="@+id/txtProjects"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/verticalLayoutsThirdScreen"
+    android:background="#868784"
+    tools:context=".monday_Schedule"
+    >
+
+    <ImageView
+        style="@style/imageViewsStyleThirdScreen"
+        android:id="@+id/dayImage"
+        />
+
+    <TextView
+        style="@style/largeTextViewStyle"
+        android:text="@string/monday_schedule"
+        />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:outlineSpotShadowColor="@color/black"
+        android:choiceMode="multipleChoice"
+        android:id="@+id/listView"
+        />
+
+    <LinearLayout
+        style="@style/horizontalLayouts"
+        >
+
+        <Button
+            style="@style/buttonsStyle"
+            android:onClick="btnFinishedOnClickDay"
+            android:text="@string/finish_day"
+            android:backgroundTint="#5b5c58"
+            />
+
+        <Button
+            style="@style/buttonsStyle"
+            android:onClick="btnLoadOnClickDay"
+            android:text="@string/load_day"
+            android:backgroundTint="#5b5c58"
+            />
+
+        <Button
+            style="@style/buttonsStyle"
+            android:onClick="btnInsertOnClickDay"
+            android:text="@string/add_day"
+            android:backgroundTint="#5b5c58"
+            />
+
+        <Button
+            style="@style/buttonsStyle"
+            android:onClick="btnDeleteOnClickDay"
+            android:text="@string/delete_day"
+            android:backgroundTint="#5b5c58"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/horizontalLayouts"
+        >
+
+        <TextView
+            style="@style/smallTextViewStyle"
+            android:text="@string/enter_day"
+            />
+
+        <EditText
+            style="@style/editTextStyle"
+            android:hint="@string/hint_day"
+            android:id="@+id/txtLecture"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/horizontalLayouts"
+        >
+
+        <TextView
+            style="@style/smallTextViewStyle"
+            android:text="@string/time_start_day"
+            />
+
+        <EditText
+            style="@style/editTextStyle"
+            android:hint="@string/hint_starting_time"
+            android:id="@+id/txtStartTime"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/horizontalLayouts"
+        >
+
+        <TextView
+            style="@style/smallTextViewStyle"
+            android:text="@string/time_finish_day"
+            />
+
+        <EditText
+            style="@style/editTextStyle"
+            android:hint="@string/hint_finishing_time"
+            android:id="@+id/txtFinishTime"
+            />
+    </LinearLayout>
+
+</LinearLayout>

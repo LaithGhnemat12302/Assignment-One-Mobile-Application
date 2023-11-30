@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/verticalLayoutsThirdScreen"
+    android:background="#b36334"
+    tools:context=".Finals"
+    >
+
+    <ImageView
+        style="@style/imageViewsStyleThirdScreen"
+        android:id="@+id/examImage"
+        />
+
+    <TextView
+        style="@style/largeTextViewStyle"
+        android:text="@string/finals"
+        />
+
+    <ListView
+        style="listViewStyleThirdScreen"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:choiceMode="multipleChoice"
+        android:id="@+id/listView"
+        />
+
+    <LinearLayout
+        style="@style/horizontalLayouts"
+        >
+
+        <Button
+            style="@style/buttonsStyle"
+            android:onClick="btnOnClickFinish"
+            android:text="@string/finish_exam"
+            android:backgroundTint="#914619"
+            />
+
+        <Button
+            style="@style/buttonsStyle"
+            android:onClick="btnOnClickLoad"
+            android:text="@string/load_exam"
+            android:backgroundTint="#914619"
+            />
+
+        <Button
+            style="@style/buttonsStyle"
+            android:onClick="btnOnClickInsert"
+            android:text="@string/add_exam"
+            android:backgroundTint="#914619"
+            />
+
+        <Button
+            style="@style/buttonsStyle"
+            android:onClick="btnOnClickDelete"
+            android:text="@string/delete_exam"
+            android:backgroundTint="#914619"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/horizontalLayouts"
+        >
+
+        <TextView
+            style="@style/smallTextViewStyle"
+            android:text="@string/enter_exam"
+            />
+
+        <EditText
+            style="@style/editTextStyle"
+            android:hint="@string/hint_exam"
+            android:id="@+id/txtTest"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/horizontalLayouts"
+        >
+
+        <TextView
+            style="@style/smallTextViewStyle"
+            android:text="@string/examDay"
+            />
+
+        <EditText
+            style="@style/editTextStyle"
+            android:hint="@string/hint_exam_day"
+            android:id="@+id/txtExamDay"
+            />
+    </LinearLayout>
+
+</LinearLayout>

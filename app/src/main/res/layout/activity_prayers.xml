@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/verticalLayoutsThirdScreen"
+    android:background="#f5c147"
+    tools:context=".Prayers"
+    >
+
+    <ImageView
+        style="@style/imageViewsStyleThirdScreen"
+        android:id="@+id/pray_image"
+        />
+
+    <TextView
+        style="@style/largeTextViewStyle"
+        android:text="@string/prayers"
+        />
+
+    <ListView
+        style="listViewStyleThirdScreen"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:id="@+id/listView"
+        android:choiceMode="multipleChoice"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            style="@style/buttonsStyle"
+            android:onClick="btnOnClickDone"
+            android:text="@string/done_pray"
+            android:backgroundTint="#ad7b03"
+            />
+
+        <Button
+            style="@style/buttonsStyle"
+            android:layout_width="wrap_content"
+            android:onClick="btnOnClickLoad"
+            android:text="@string/load_pray"
+            android:backgroundTint="#ad7b03"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

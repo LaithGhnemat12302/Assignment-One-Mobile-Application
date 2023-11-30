@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/verticalLayoutsThirdScreen"
+    android:background="#8aed18"
+    tools:context=".Football"
+    >
+
+    <ImageView
+        style="@style/imageViewsStyleThirdScreen"
+        android:id="@+id/footballImage"
+        />
+
+    <TextView
+        style="@style/largeTextViewStyle"
+        android:text="@string/todays_matches"
+        />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:choiceMode="multipleChoice"
+        android:id="@+id/listView"
+        />
+
+    <LinearLayout
+        style="@style/horizontalLayouts"
+        >
+
+        <Button
+            style="@style/buttonsStyle"
+            android:onClick="btnWatchedOnClick"
+            android:text="@string/watched_match"
+            android:backgroundTint="#065535"
+            />
+
+        <Button
+            style="@style/buttonsStyle"
+            android:onClick="btnLoadOnClick"
+            android:text="@string/load_match"
+            android:backgroundTint="#065535"
+            />
+
+        <Button
+            style="@style/buttonsStyle"
+            android:onClick="btnInsertOnClick"
+            android:text="@string/add_match"
+            android:backgroundTint="#065535"
+            />
+
+        <Button
+            style="@style/buttonsStyle"
+            android:onClick="btnDeleteOnClick"
+            android:text="@string/delete_match"
+            android:backgroundTint="#065535"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/horizontalLayouts"
+        >
+
+        <TextView
+            style="@style/smallTextViewStyle"
+            android:text="@string/first_team"
+            />
+
+        <EditText
+            style="@style/editTextStyle"
+            android:hint="@string/hint_first_team"
+            android:id="@+id/txtFirstTeam"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/horizontalLayouts"
+        >
+
+        <TextView
+            style="@style/smallTextViewStyle"
+            android:text="@string/second_team"
+            />
+
+        <EditText
+            style="@style/editTextStyle"
+            android:hint="@string/hint_second_team"
+            android:id="@+id/txtSecondTeam"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/horizontalLayouts"
+        >
+
+        <TextView
+            style="@style/smallTextViewStyle"
+            android:text="@string/match_time"
+            />
+
+        <EditText
+            style="@style/editTextStyle"
+            android:hint="@string/hint_match_time"
+            android:id="@+id/txtMatchTime"
+            />
+    </LinearLayout>
+
+</LinearLayout>

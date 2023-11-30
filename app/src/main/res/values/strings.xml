@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">Task Management</string>
+    <string name="please_select_one_of_this_list">Please select one of this list:</string>
+    <!-- ______________________________________________________________________________________________________________ -->
+    <string name="proj_assign_select">Please select one of this list:</string>
+    <!-- ______________________________________________________________________________________________________________ -->
+    <string name="please_select_the_performed_projects">Please select the performed projects:</string>
+    <string name="save_projects">Save</string>
+    <string name="load_projects">Load</string>
+    <string name="add_projects">Add</string>
+    <string name="delete_projects">Delete</string>
+    <string name="enter_project_name">Enter project name:</string>
+    <string name="hint_project">Enter project</string>
+    <!-- ______________________________________________________________________________________________________________ -->
+    <string name="please_select_the_performed_assignments">Please select the performed assignments:</string>
+    <string name="save_assignments">Save</string>
+    <string name="load_assignments">Load</string>
+    <string name="add_assignments">Add</string>
+    <string name="delete_assignments">Delete</string>
+    <string name="enter_assignment_name">Enter assignment name:</string>
+    <string name="hint_assignment">Enter assignment</string>
+    <!-- ______________________________________________________________________________________________________________ -->
+    <string name="select_the_day">Select the day:</string>
+    <string name="saturday_schedule">Saturday Schedule:</string>
+    <string name="finish_day">Finish</string>
+    <string name="load_day">Load</string>
+    <string name="add_day">Add</string>
+    <string name="delete_day">Delete</string>
+    <string name="enter_day">Enter lecture:</string>
+    <string name="hint_day">Enter lecture</string>
+    <string name="time_start_day">Enter starting time:</string>
+    <string name="hint_starting_time">Start time</string>
+    <string name="time_finish_day">Enter finishing time:</string>
+    <string name="hint_finishing_time">Finish time</string>
+    <string name="monday_schedule">Monday Schedule:</string>
+    <string name="tuesday_schedule">Tuesday Schedule:</string>
+    <string name="wednesday_schedule">Wednesday Schedule:</string>
+    <string name="thursday_schedule">Thursday Schedule:</string>
+    <!-- ______________________________________________________________________________________________________________ -->
+    <string name="select_the_type">Select the type:</string>
+    <string name="quizes">Quizes:</string>
+    <string name="midterms">Midterms:</string>
+    <string name="finals">Finals:</string>
+    <string name="finish_exam">Finish</string>
+    <string name="load_exam">Load</string>
+    <string name="add_exam">Add</string>
+    <string name="delete_exam">Delete</string>
+    <string name="enter_exam">Enter exam:</string>
+    <string name="hint_exam">Enter exam</string>
+    <string name="examDay">Enter exam day:</string>
+    <string name="hint_exam_day">Exam day</string>
+    <!-- ______________________________________________________________________________________________________________ -->
+    <string name="prayers">Prayers:</string>
+    <string name="done_pray">Done</string>
+    <string name="load_pray">Load</string>
+    <!-- ______________________________________________________________________________________________________________ -->
+    <string name="languages">Programming Languages Learning:</string>
+    <string name="save_language">Save</string>
+    <string name="load_language">Load</string>
+    <string name="add_language">Add</string>
+    <string name="delete_language">Delete</string>
+    <string name="enter_language">Enter language:</string>
+    <string name="hint_language">Enter language</string>
+    <!-- ______________________________________________________________________________________________________________ -->
+    <string name="todays_matches">Todays matches</string>
+    <string name="watched_match">Watch</string>
+    <string name="load_match">Load</string>
+    <string name="add_match">Add</string>
+    <string name="delete_match">Delete</string>
+    <string name="first_team">First Team</string>
+    <string name="hint_first_team">First Team</string>
+    <string name="second_team">Second Team</string>
+    <string name="hint_second_team">Second Team</string>
+    <string name="match_time">Time</string>
+    <string name="hint_match_time">Time</string>
+</resources>
+

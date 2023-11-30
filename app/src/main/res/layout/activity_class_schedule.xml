@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="0.5dp"
+    android:background="#05f0e0"
+    tools:context=".Class_Schedule"
+    >
+
+    <TextView
+        style="@style/largeTextViewStyle"
+        android:text="@string/select_the_day"
+        />
+
+    <ListView
+        style="@style/listViewStyle"
+        android:id="@+id/daysListView"
+        />
+
+    <ImageView
+        style="@style/imageViewsStyle"
+        android:src="@drawable/class_schedule"
+        android:background="@color/black"
+        />
+
+</LinearLayout>
