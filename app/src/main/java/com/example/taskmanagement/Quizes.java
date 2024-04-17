@@ -73,6 +73,8 @@ public class Quizes extends AppCompatActivity {
         testsArrayList.add(new Test("Android","Thursday"));
         testsArrayList.add(new Test("Network Lab", "Monday"));
         testsArrayList.add(new Test("OS", "Wednesday"));
+        testsArrayList.add(new Test("ML", "Thursday"));
+        testsArrayList.add(new Test("Web", "Sunday"));
     }
     //_____________________________________________________________________________________________________________________________________
 

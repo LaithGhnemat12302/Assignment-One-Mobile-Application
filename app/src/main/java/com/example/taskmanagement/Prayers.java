@@ -58,11 +58,11 @@ public class Prayers extends AppCompatActivity {
 
     private void initializeArrayList() {    //Add initial values to the ArrayList
         prayersArrayList.clear();
-        prayersArrayList.add(new Pray("Al-Fajr prayer"));
-        prayersArrayList.add(new Pray("Aduhor prayer"));
-        prayersArrayList.add(new Pray("Al-Asr prayer"));
-        prayersArrayList.add(new Pray("Al-Maghreb prayer"));
-        prayersArrayList.add(new Pray("Al-Eshaa prayer"));
+        prayersArrayList.add(new Pray("الفجر"));
+        prayersArrayList.add(new Pray("الظّهر"));
+        prayersArrayList.add(new Pray("العصر"));
+        prayersArrayList.add(new Pray("المغرب"));
+        prayersArrayList.add(new Pray("العشاء"));
     }
     //_____________________________________________________________________________________________________________________________________
 
